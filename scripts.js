@@ -42,6 +42,9 @@ form.onsubmit = async (event) => {
             case 'GBP':
                 symbol = '£';
                 break;
+            case 'KRW':
+                symbol = '₩';
+                break;
         }
 
         convertCurrency(amount.value, price, symbol);
